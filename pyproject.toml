@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nemos"
+version = "1.0.0"
+description = "NeMoS: Nearest Neighbors Bandit meets Active Learning for Online Model Selection (TMLR)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = [
+    "contextual-bandits",
+    "active-learning",
+    "model-selection",
+    "text-to-image",
+    "online-learning",
+]
+dynamic = ["dependencies"]
+
+[project.urls]
+Paper = "https://openreview.net/forum?id=CSjewjplO1"
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[tool.setuptools.packages.find]
+where = ["src"]

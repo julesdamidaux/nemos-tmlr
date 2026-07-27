@@ -1,0 +1,37 @@
+# --- Agent scratch (local only, never published) ---
+CLAUDE.md
+.claude/
+
+# --- Data & large artifacts (generated locally, not tracked) ---
+datasets/
+*.safetensors
+*.pkl
+*.csv
+
+# --- Generated results & figures ---
+experiments/results/
+experiments/data/
+experiments/plots/
+rebuttal_figures/
+rebuttal_experiments/
+tests/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

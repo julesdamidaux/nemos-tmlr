@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "NeMoS: Nearest Neighbors Bandit meets Active Learning for Online Model Selection"
+authors:
+  - given-names: Jules
+    family-names: Damidaux
+  - given-names: Basile
+    family-names: Lewandowski
+  - given-names: Farzan
+    family-names: Farnia
+  - given-names: Lydia
+    family-names: Chen
+preferred-citation:
+  type: article
+  title: "NeMoS: Nearest Neighbors Bandit meets Active Learning for Online Model Selection"
+  authors:
+    - given-names: Jules
+      family-names: Damidaux
+    - given-names: Basile
+      family-names: Lewandowski
+    - given-names: Farzan
+      family-names: Farnia
+    - given-names: Lydia
+      family-names: Chen
+  journal: "Transactions on Machine Learning Research"
+  issn: "2835-8856"
+  year: 2026
+  url: "https://openreview.net/forum?id=CSjewjplO1"
